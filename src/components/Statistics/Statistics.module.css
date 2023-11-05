@@ -1,0 +1,36 @@
+.container {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px;
+}
+
+.ratings__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ratings__item__total {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.feedback_good {
+  font-weight: bold;
+}
+
+.feedback_neutral {
+  font-weight: bold;
+}
+
+.feedback_bad {
+  font-weight: bold;
+}

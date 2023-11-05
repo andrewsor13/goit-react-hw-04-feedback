@@ -1,0 +1,17 @@
+.button {
+  padding: 10px 20px;
+  margin: 3px;
+  font-size: 13px;
+}
+
+.button:hover {
+  background-color: rgb(253, 162, 129);
+  color: white;
+}
+
+.button_container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}

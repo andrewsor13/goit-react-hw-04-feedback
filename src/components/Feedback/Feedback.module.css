@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.titleLetter {
+  display: inline-block;
+  transition: all 0.4s ease;
+  font-size: 34px;
+}
+
+.titleLetter:hover {
+  transform: scale(1.2);
+}
